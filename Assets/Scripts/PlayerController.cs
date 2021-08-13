@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Move();
+        TryRun();
     }
 
     // 달리기 시도
